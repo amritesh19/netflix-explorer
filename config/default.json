@@ -1,0 +1,4 @@
+{
+  "db": "mongodb://localhost/netflix",
+  "port": "3900"
+}
