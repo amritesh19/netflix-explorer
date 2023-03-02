@@ -1,0 +1,534 @@
+{
+	"info": {
+		"_postman_id": "c9bd5776-eb6c-4e95-885a-937caef88de8",
+		"name": "netflix-explorer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26125941"
+	},
+	"item": [
+		{
+			"name": "List API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://netflix-explorer.onrender.com/api/list?type=TV%20Show&from=2021&sort=date_added&search=x&order=asc",
+					"protocol": "https",
+					"host": [
+						"netflix-explorer",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"list"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "TV%20Show"
+						},
+						{
+							"key": "from",
+							"value": "2021"
+						},
+						{
+							"key": "sort",
+							"value": "date_added"
+						},
+						{
+							"key": "search",
+							"value": "x"
+						},
+						{
+							"key": "order",
+							"value": "asc"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "List API",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://netflix-explorer.onrender.com/api/list?type=TV%20Show&from=2021&sort=date_added&search=x&order=asc",
+							"protocol": "https",
+							"host": [
+								"netflix-explorer",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"list"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "TV%20Show"
+								},
+								{
+									"key": "from",
+									"value": "2021"
+								},
+								{
+									"key": "sort",
+									"value": "date_added"
+								},
+								{
+									"key": "search",
+									"value": "x"
+								},
+								{
+									"key": "order",
+									"value": "asc"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 02 Mar 2023 06:31:14 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "CF-Ray",
+							"value": "7a179874fda77fae-IAD"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"80a3-ss2j13muuJPj/SaUJP1vMf+ZOPQ\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"63ff43703aa802b65adee130\",\n        \"show_id\": \"s1076\",\n        \"type\": \"TV Show\",\n        \"title\": \"My Love: Six Stories of True Love\",\n        \"director\": \"Moyoung Jin, Caroline Sá, Deepti Kakkar, Fahad Mustafa, Hikaru Toda, Chico Pereira, Elaine McMillion Sheldon\",\n        \"cast\": \"\",\n        \"country\": \"United States, Brazil, Japan, Spain, India\",\n        \"date_added\": \"2021-04-13T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-PG\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"Docuseries\",\n        \"description\": \"Six longtime couples in different parts of the world share their decades-long love in these tender portraits filmed over the course of one year.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee11e\",\n        \"show_id\": \"s1058\",\n        \"type\": \"TV Show\",\n        \"title\": \"Dad Stop Embarrassing Me!\",\n        \"director\": \"\",\n        \"cast\": \"Jamie Foxx, David Alan Grier, Kyla-Drew, Porscha Coleman, Jonathan Kite, Heather Hemmens, Valente Rodriguez\",\n        \"country\": \"United States\",\n        \"date_added\": \"2021-04-14T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-14\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"TV Comedies\",\n        \"description\": \"A single dad and cosmetics brand owner figures out fatherhood on the fly when his strong-minded teen daughter moves in with him.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee11f\",\n        \"show_id\": \"s1059\",\n        \"type\": \"TV Show\",\n        \"title\": \"Fate: The Winx Saga\",\n        \"director\": \"\",\n        \"cast\": \"Abigail Cowen, Hannah Van Der Westhuysen, Precious Mustapha, Eliot Salt, Elisha Applebaum, Danny Griffin, Sadie Soverall, Freddie Thorp, Rob James-Collier, Eve Best, Lesley Sharp\",\n        \"country\": \"Italy, United Kingdom\",\n        \"date_added\": \"2021-04-14T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"British TV Shows, International TV Shows, TV Dramas\",\n        \"description\": \"Determined to master their enchanting powers, a group of teens navigate rivalry, romance and supernatural studies at Alfea, a magical boarding school.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee0de\",\n        \"show_id\": \"s994\",\n        \"type\": \"TV Show\",\n        \"title\": \"Shadow and Bone\",\n        \"director\": \"\",\n        \"cast\": \"Jessie Mei Li, Archie Renaux, Ben Barnes, Freddy Carter, Amita Suman, Kit Young, Danielle Galligan, Calahan Skogman, Sujaya Dasgupta, Simon Sears, Daisy Head, Zoë Wanamaker, Luke Pasqualino, Julian Kostov\",\n        \"country\": \"United States\",\n        \"date_added\": \"2021-04-23T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-14\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"TV Action & Adventure, TV Dramas, TV Sci-Fi & Fantasy\",\n        \"description\": \"Dark forces conspire against orphan mapmaker Alina Starkov when she unleashes an extraordinary power that could change the fate of her war-torn world.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee0c5\",\n        \"show_id\": \"s969\",\n        \"type\": \"TV Show\",\n        \"title\": \"Sexify\",\n        \"director\": \"\",\n        \"cast\": \"Aleksandra Skraba, Maria Sobocińska, Sandra Drzymalska, Piotr Pacek, Kamil Wodka, Jan Wieteska, Wojciech Solarz\",\n        \"country\": \"Poland\",\n        \"date_added\": \"2021-04-28T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"International TV Shows, TV Comedies, TV Dramas\",\n        \"description\": \"To build an innovative sex app and win a tech competition, a sexually inexperienced student and her friends must explore the daunting world of intimacy.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee0bd\",\n        \"show_id\": \"s961\",\n        \"type\": \"TV Show\",\n        \"title\": \"The Innocent\",\n        \"director\": \"Oriol Paulo\",\n        \"cast\": \"Mario Casas, Alexandra Jiménez, Aura Garrido, José Coronado, Juana Acosta, Susi Sánchez, Ana Wagener, Gonzalo de Castro, Martina Gusmán, Xavi Sáez, Miki Esparbé, Anna Alarcón\",\n        \"country\": \"\",\n        \"date_added\": \"2021-04-30T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"Crime TV Shows, International TV Shows, Spanish-Language TV Shows\",\n        \"description\": \"An accidental killing leads a man down a dark hole of intrigue and murder. Just as he finds love and freedom, one phone call brings back the nightmare.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adede0e\",\n        \"show_id\": \"s274\",\n        \"type\": \"TV Show\",\n        \"title\": \"Gone for Good\",\n        \"director\": \"Juan Carlos Medina\",\n        \"cast\": \"Finnegan Oldfield, Nicolas Duvauchelle, Guillaume Gouix, Garance Marillier, Nailia Harzoune\",\n        \"country\": \"France\",\n        \"date_added\": \"2021-08-13T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"Crime TV Shows, International TV Shows, TV Dramas\",\n        \"description\": \"Ten years after losing two loved ones, a man is plunged into another dizzying mystery when his girlfriend vanishes. Based on a Harlan Coben novel.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adede11\",\n        \"show_id\": \"s277\",\n        \"type\": \"TV Show\",\n        \"title\": \"Valeria\",\n        \"director\": \"Inma Torrente\",\n        \"cast\": \"Diana Gómez, Silma López, Paula Malia, Teresa Riott, Maxi Iglesias, Ibrahim Al Shami\",\n        \"country\": \"Spain\",\n        \"date_added\": \"2021-08-13T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"2 Seasons\",\n        \"listed_in\": \"International TV Shows, Romantic TV Shows, Spanish-Language TV Shows\",\n        \"description\": \"A writer in creative and marital crises finds support from three friends, who are also discovering themselves. Based on the novels by Elísabet Benavent.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adeddee\",\n        \"show_id\": \"s242\",\n        \"type\": \"TV Show\",\n        \"title\": \"Manifest\",\n        \"director\": \"\",\n        \"cast\": \"Melissa Roxburgh, Josh Dallas, Athena Karkanis, J.R. Ramirez, Luna Blaise, Jack Messina, Parveen Kaur\",\n        \"country\": \"United States\",\n        \"date_added\": \"2021-08-21T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-14\",\n        \"duration\": \"3 Seasons\",\n        \"listed_in\": \"TV Dramas, TV Mysteries, TV Sci-Fi & Fantasy\",\n        \"description\": \"When a plane mysteriously lands years after takeoff, the people onboard return to a world that has moved on without them and face strange, new realities.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedddb\",\n        \"show_id\": \"s223\",\n        \"type\": \"TV Show\",\n        \"title\": \"Clickbait\",\n        \"director\": \"Brad Anderson\",\n        \"cast\": \"Zoe Kazan, Betty Gabriel, Adrian Grenier, Phoenix Raei, Abraham Lim, Jessica Collins, Camaron Engels, Jaylin Fletcher, Liz Alexander, Joyce Guy, Daniel Henshall, Ian Meadows, Jamie Timony, Steve Mouzakis, Becca Lish\",\n        \"country\": \"\",\n        \"date_added\": \"2021-08-25T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"Crime TV Shows, TV Dramas, TV Mysteries\",\n        \"description\": \"When family man Nick Brewer is abducted in a crime with a sinister online twist, those closest to him race to uncover who is behind it and why.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adeddd2\",\n        \"show_id\": \"s214\",\n        \"type\": \"TV Show\",\n        \"title\": \"RIDE ON TIME\",\n        \"director\": \"\",\n        \"cast\": \"King & Prince, Hey! Say! JUMP, KAT-TUN, NEWS, Kansai Johnny's Jr., Snow Man, Tomoyuki Yara, Travis Japan, Bi shonen, SixTONES, HiHi Jets, Kis-My-Ft2, Koichi Domoto\",\n        \"country\": \"\",\n        \"date_added\": \"2021-08-27T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-PG\",\n        \"duration\": \"3 Seasons\",\n        \"listed_in\": \"Docuseries, International TV Shows\",\n        \"description\": \"Take a deep dive into the beautiful world of Japan's top male idol groups from number one producer Johnny's in this revealing docuseries.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adede34\",\n        \"show_id\": \"s312\",\n        \"type\": \"TV Show\",\n        \"title\": \"Control Z\",\n        \"director\": \"\",\n        \"cast\": \"Ana Valeria Becerril, Michael Ronda, Yankel Stevan, Zion Moreno, Luis Curiel, Samantha Acuña, Macarena García, Fiona Palomo, Andrés Baida, Patricio Gallardo, Iván Aragón, Xabiani Ponce de León, Patricia Maqueo, Rodrigo Cachero, Rocío Verdejo, Mauro Sánchez Navarro, Lidia San José, Thanya López, Renata del Castillo, Arturo Barba, Kariam Castro, Ariana Saavedra, Alexander Holtmann, Nastassia Villasana, Marco Zunino\",\n        \"country\": \"Mexico\",\n        \"date_added\": \"2021-08-04T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"2 Seasons\",\n        \"listed_in\": \"International TV Shows, Spanish-Language TV Shows, TV Dramas\",\n        \"description\": \"When a hacker begins releasing students' secrets to the entire high school, the socially isolated but observant Sofía works to uncover his/her identity.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee211\",\n        \"show_id\": \"s1301\",\n        \"type\": \"TV Show\",\n        \"title\": \"Amend: The Fight for America\",\n        \"director\": \"\",\n        \"cast\": \"Will Smith, Mahershala Ali, Laverne Cox, Utkarsh Ambudkar, Bambadjan Bamba, Sterling K. Brown, Bobby Cannavale, Rafael Casal, Whitney Cummings, Daveed Diggs, Hannah Gadsby, Joseph Gordon-Levitt, Graham Greene, Diane Guerrero, Helen Hunt, Joshua Jackson, Samuel L. Jackson, Aja Naomi King, Diane Lane, Ki Hong Lee, Gabriel Luna, Marsai Martin, Dermot Mulroney, Tig Notaro, Jae Suh Park, Randall Park, Pedro Pascal, Yara Shahidi, Alia Shawkat, Algee Smith, Willow Smith, Courtney B. Vance, Lena Waithe, Samira Wiley, Larry Wilmore\",\n        \"country\": \"United States\",\n        \"date_added\": \"2021-02-17T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"Docuseries\",\n        \"description\": \"Will Smith hosts this look at the evolving, often lethal, fight for equal rights in America through the lens of the US Constitution's 14th Amendment.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee1f8\",\n        \"show_id\": \"s1276\",\n        \"type\": \"TV Show\",\n        \"title\": \"Ginny & Georgia\",\n        \"director\": \"\",\n        \"cast\": \"Brianne Howey, Antonia Gentry, Diesel La Torraca, Jennifer Robertson, Felix Mallard, Sara Waisglass, Scott Porter, Raymond Ablack\",\n        \"country\": \"United States\",\n        \"date_added\": \"2021-02-24T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-14\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"Romantic TV Shows, TV Comedies, TV Dramas\",\n        \"description\": \"Free-spirited Georgia and her two kids, Ginny and Austin, move north in search of a fresh start but find that the road to new beginnings can be bumpy.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee2a5\",\n        \"show_id\": \"s1449\",\n        \"type\": \"TV Show\",\n        \"title\": \"Cobra Kai\",\n        \"director\": \"\",\n        \"cast\": \"Ralph Macchio, William Zabka, Xolo Maridueña, Martin Kove, Mary Mouser, Tanner Buchanan, Courtney Henggeler, Jacob Bertrand\",\n        \"country\": \"United States\",\n        \"date_added\": \"2021-01-01T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-14\",\n        \"duration\": \"3 Seasons\",\n        \"listed_in\": \"TV Action & Adventure, TV Comedies, TV Dramas\",\n        \"description\": \"Decades after the tournament that changed their lives, the rivalry between Johnny and Daniel reignites in this sequel to the \\\"Karate Kid\\\" films.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee277\",\n        \"show_id\": \"s1403\",\n        \"type\": \"TV Show\",\n        \"title\": \"Disenchantment\",\n        \"director\": \"\",\n        \"cast\": \"Abbi Jacobson, Eric André, Nat Faxon, John DiMaggio, Tress MacNeille, Matt Berry, David Herman, Maurice LaMarche, Lucy Montgomery, Billy West\",\n        \"country\": \"United States\",\n        \"date_added\": \"2021-01-15T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-14\",\n        \"duration\": \"3 Seasons\",\n        \"listed_in\": \"TV Action & Adventure, TV Comedies, TV Sci-Fi & Fantasy\",\n        \"description\": \"Princess duties call, but she'd rather be drinking. Free-spirited Bean exasperates the king as she wreaks havoc with her demon and elf pals.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43713aa802b65adefdf2\",\n        \"show_id\": \"s8438\",\n        \"type\": \"TV Show\",\n        \"title\": \"The Netflix Afterparty\",\n        \"director\": \"\",\n        \"cast\": \"David Spade, London Hughes, Fortune Feimster\",\n        \"country\": \"United States\",\n        \"date_added\": \"2021-01-02T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"Stand-Up Comedy & Talk Shows, TV Comedies\",\n        \"description\": \"Hosts David Spade, Fortune Feimster and London Hughes welcome guests from the newest and biggest Netflix titles for fun conversations, skits and more.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee26d\",\n        \"show_id\": \"s1393\",\n        \"type\": \"TV Show\",\n        \"title\": \"Daughter From Another Mother\",\n        \"director\": \"\",\n        \"cast\": \"Ludwika Paleta, Paulina Goto, Martín Altomaro, Liz Gallardo, Javier Ponce, Oka Giner, Zaide Silvia Gutiérrez, Dalexa Meneses, Emilio Beltrán Ulrich, Fernando Memije, Elena del Río, Christian Chávez\",\n        \"country\": \"Mexico\",\n        \"date_added\": \"2021-01-20T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"International TV Shows, Spanish-Language TV Shows, TV Comedies\",\n        \"description\": \"After realizing their babies were exchanged at birth, two women develop a plan to adjust to their new lives: creating a single —and peculiar— family.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee25c\",\n        \"show_id\": \"s1376\",\n        \"type\": \"TV Show\",\n        \"title\": \"BONDING\",\n        \"director\": \"\",\n        \"cast\": \"Zoe Levin, Brendan Scannell, Micah Stock, Theo Stockman, Alex Hurt, D'Arcy Carden, Gabrielle Ryan, Charles Gould\",\n        \"country\": \"United States\",\n        \"date_added\": \"2021-01-27T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"2 Seasons\",\n        \"listed_in\": \"TV Comedies, TV Dramas\",\n        \"description\": \"A New York City grad student moonlighting as a dominatrix enlists her gay BFF from high school to be her assistant.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee29d\",\n        \"show_id\": \"s1441\",\n        \"type\": \"TV Show\",\n        \"title\": \"Nailed It! Mexico\",\n        \"director\": \"\",\n        \"cast\": \"Omar Chaparro, Anna Ruiz\",\n        \"country\": \"Mexico, United States\",\n        \"date_added\": \"2021-01-05T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-PG\",\n        \"duration\": \"3 Seasons\",\n        \"listed_in\": \"International TV Shows, Reality TV, Spanish-Language TV Shows\",\n        \"description\": \"The fun, fondant and hilarious cake fails head to Mexico, where very amateur bakers compete to re-create elaborate sweet treats for a cash prize.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedecf\",\n        \"show_id\": \"s467\",\n        \"type\": \"TV Show\",\n        \"title\": \"My Unorthodox Life\",\n        \"director\": \"\",\n        \"cast\": \"\",\n        \"country\": \"\",\n        \"date_added\": \"2021-07-14T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"Reality TV\",\n        \"description\": \"Follow Julia Haart, Elite World Group CEO and a former member of an ultra-Orthodox Jewish community, and her adult kids in this reality series.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedeb5\",\n        \"show_id\": \"s441\",\n        \"type\": \"TV Show\",\n        \"title\": \"Explained\",\n        \"director\": \"\",\n        \"cast\": \"\",\n        \"country\": \"United States\",\n        \"date_added\": \"2021-07-16T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"3 Seasons\",\n        \"listed_in\": \"Docuseries, Science & Nature TV\",\n        \"description\": \"This enlightening series from Vox digs into a wide range of topics such as the rise of cryptocurrency, why diets fail, and the wild world of K-pop.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedeab\",\n        \"show_id\": \"s431\",\n        \"type\": \"TV Show\",\n        \"title\": \"Sexy Beasts\",\n        \"director\": \"\",\n        \"cast\": \"\",\n        \"country\": \"\",\n        \"date_added\": \"2021-07-21T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-14\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"British TV Shows, International TV Shows, Reality TV\",\n        \"description\": \"Hoping to say goodbye to superficial dating, real-life singles sport elaborate makeup and prosthetics to put true blind-date chemistry to the test.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adede8e\",\n        \"show_id\": \"s402\",\n        \"type\": \"TV Show\",\n        \"title\": \"Sky Rojo\",\n        \"director\": \"\",\n        \"cast\": \"Verónica Sánchez, Miguel Ángel Silvestre, Asier Etxeandia, Lali Espósito, Yany Prado, Enric Auquer, Luis Zahera, Carmen Santamaría, Cecilia Gómez, Godeliv Van den Brandt, Penélope Guerrero, Luisa Vides, Niko Verona, Chema Ruiz\",\n        \"country\": \"Spain\",\n        \"date_added\": \"2021-07-23T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"2 Seasons\",\n        \"listed_in\": \"International TV Shows, Spanish-Language TV Shows, TV Action & Adventure\",\n        \"description\": \"A fatal turn of events at a brothel sends three women haunted by their pasts on a wild run from their pimp and his henchmen.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adede7e\",\n        \"show_id\": \"s386\",\n        \"type\": \"TV Show\",\n        \"title\": \"How to Sell Drugs Online (Fast)\",\n        \"director\": \"\",\n        \"cast\": \"Maximilian Mundt, Danilo Kamperidis, Lena Klenke, Damian Hardung, Leonie Wesselow, Luna Schaller, Bjarne Mädel, Roland Riebeling\",\n        \"country\": \"Germany\",\n        \"date_added\": \"2021-07-27T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"3 Seasons\",\n        \"listed_in\": \"Crime TV Shows, International TV Shows, TV Comedies\",\n        \"description\": \"To win back his ex-girlfriend, a nerdy teen starts selling ecstasy online out of his bedroom – and becomes one of Europe's biggest dealers.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adede7f\",\n        \"show_id\": \"s387\",\n        \"type\": \"TV Show\",\n        \"title\": \"Mighty Express\",\n        \"director\": \"\",\n        \"cast\": \"Jay Hatton, Zoe Hatz, Meesha Contreras, Dylan Shombing, Tyler Nathan, Leo Orgil, Michela Luci, Ian Ho, Evan Lefeuvre, Annick Obonsawin\",\n        \"country\": \"United States, Canada\",\n        \"date_added\": \"2021-07-27T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-Y\",\n        \"duration\": \"4 Seasons\",\n        \"listed_in\": \"Kids' TV\",\n        \"description\": \"Catch a ride with the Mighty Express — a team of trains and their kid friends who overcome trouble on the tracks with quick thinking and teamwork!\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedf20\",\n        \"show_id\": \"s548\",\n        \"type\": \"TV Show\",\n        \"title\": \"We the People\",\n        \"director\": \"\",\n        \"cast\": \"H.E.R., Adam Lambert, Cordae, Kristen Anderson-Lopez, Daveed Diggs, Brittany Howard, Robert Lopez, Lin-Manuel Miranda, Brandi Carlile, Kyle Harvey, Bebe Rexha, Andra Day, Janelle Monáe, Amanda Gorman\",\n        \"country\": \"United States\",\n        \"date_added\": \"2021-07-04T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-Y7\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"Kids' TV\",\n        \"description\": \"Learn the basics of rights and citizenship with upbeat songs by popular artists like Janelle Monáe, H.E.R., Adam Lambert, Brandi Carlile and more.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedf17\",\n        \"show_id\": \"s539\",\n        \"type\": \"TV Show\",\n        \"title\": \"The A List\",\n        \"director\": \"\",\n        \"cast\": \"Lisa Ambalavanar, Ellie Duckles, Savannah Baker, Cian Barry, Eleanor Bennett, Jacob Dudman, Rosie Dwyer, Jack Kane, Max Lohan, Nneka Okoye, Micheal Ward, Georgina Sadler, Indianna Ryan\",\n        \"country\": \"United Kingdom\",\n        \"date_added\": \"2021-07-06T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-PG\",\n        \"duration\": \"2 Seasons\",\n        \"listed_in\": \"British TV Shows, International TV Shows, TV Dramas\",\n        \"description\": \"Romance, rivalry and radical mystery collide as a group of teens attend a remote island sleepaway camp in this suspenseful, supernatural drama.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedef5\",\n        \"show_id\": \"s505\",\n        \"type\": \"TV Show\",\n        \"title\": \"The War Next-door\",\n        \"director\": \"\",\n        \"cast\": \"Vanessa Bauche, Ana Layevska, Mark Tacher, Pascacio López, Elyfer Torres, Armando Said, Christian Vazquez, Marco León, Loreto Peralta, Isabella Patrón, Sara Isabel Quintero, Cecilia de los Santos Vargas\",\n        \"country\": \"\",\n        \"date_added\": \"2021-07-07T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"International TV Shows, Spanish-Language TV Shows, TV Comedies\",\n        \"description\": \"When two antagonistic families end up living next door in a posh neighborhood, the matriarchs ensue a full-scale war of unintended consequences.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedeea\",\n        \"show_id\": \"s494\",\n        \"type\": \"TV Show\",\n        \"title\": \"RESIDENT EVIL: Infinite Darkness\",\n        \"director\": \"\",\n        \"cast\": \"Nick Apostolides, Stephanie Panisello, Ray Chase, Jona Xiao, Billy Kametz, Joe J. Thomas, Doug Stone, Brad Venable, Toshiyuki Morikawa, Yuhko Kaida, Fumihiko Tachiki, Megumi Han, Kenji Nojima, Kazuhiko Inoue, Aruno Tahara, Mitsuru Ogata\",\n        \"country\": \"United States, Japan\",\n        \"date_added\": \"2021-07-08T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"Anime Series, TV Horror, TV Thrillers\",\n        \"description\": \"Years after the horrors of Raccoon City, Leon and Claire find themselves consumed by a dark conspiracy when a viral attack ravages the White House.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adededb\",\n        \"show_id\": \"s479\",\n        \"type\": \"TV Show\",\n        \"title\": \"Biohackers\",\n        \"director\": \"\",\n        \"cast\": \"Luna Wedler, Jessica Schwarz, Adrian Julius Tillmann, Thomas Prenn, Jing Xiang, Caro Cult, Sebastian Jakob Doppelbauer\",\n        \"country\": \"Germany\",\n        \"date_added\": \"2021-07-09T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"2 Seasons\",\n        \"listed_in\": \"International TV Shows, TV Dramas, TV Sci-Fi & Fantasy\",\n        \"description\": \"A medical student enters a top German university on a secret mission to uncover a conspiracy linking a family tragedy to a visionary biology professor.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedee4\",\n        \"show_id\": \"s488\",\n        \"type\": \"TV Show\",\n        \"title\": \"The Cook of Castamar\",\n        \"director\": \"\",\n        \"cast\": \"Michelle Jenner, Roberto Enríquez, Hugo Silva, Maxi Iglesias, María Hervás, Agnès Llobet, Paula Usero, Jean Cruz, Óscar Rabadán, Fiorella Faltoyano, Nancho Novo, Silvia Abascal, Mónica López\",\n        \"country\": \"\",\n        \"date_added\": \"2021-07-09T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"International TV Shows, Romantic TV Shows, Spanish-Language TV Shows\",\n        \"description\": \"In 1720 Madrid, a talented cook catches the eye of a widowed duke just as he returns to aristocratic society. Based on the novel by Fernando J. Múñez.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedee5\",\n        \"show_id\": \"s489\",\n        \"type\": \"TV Show\",\n        \"title\": \"Virgin River\",\n        \"director\": \"\",\n        \"cast\": \"Alexandra Breckenridge, Martin Henderson, Tim Matheson, Annette O'Toole, Colin Lawrence, Jenny Cooper, Lauren Hammersley\",\n        \"country\": \"United States\",\n        \"date_added\": \"2021-07-09T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-14\",\n        \"duration\": \"3 Seasons\",\n        \"listed_in\": \"Romantic TV Shows, TV Dramas\",\n        \"description\": \"Searching for a fresh start, a nurse practitioner moves from LA to a remote northern California town and is surprised by what – and who – she finds.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedfbf\",\n        \"show_id\": \"s707\",\n        \"type\": \"TV Show\",\n        \"title\": \"Elite Short Stories: Omar Ander Alexis\",\n        \"director\": \"\",\n        \"cast\": \"Arón Piper, Omar Ayuso, Claudia Salas, Jorge Clemente, Laura Calero, Jon Rod\",\n        \"country\": \"\",\n        \"date_added\": \"2021-06-16T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"International TV Shows, Spanish-Language TV Shows, TV Dramas\",\n        \"description\": \"Now in remission, Ander is set on spending his summer helping Alexis, his chemo partner, go through treatment.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedfb6\",\n        \"show_id\": \"s698\",\n        \"type\": \"TV Show\",\n        \"title\": \"Elite Short Stories: Carla Samuel\",\n        \"director\": \"\",\n        \"cast\": \"Ester Expósito, Itzan Escamilla\",\n        \"country\": \"\",\n        \"date_added\": \"2021-06-17T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"International TV Shows, Romantic TV Shows, Spanish-Language TV Shows\",\n        \"description\": \"Samuel attempts a big, romantic gesture at the airport in order to persuade Carla not to board her flight to London.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedfa9\",\n        \"show_id\": \"s685\",\n        \"type\": \"TV Show\",\n        \"title\": \"Elite\",\n        \"director\": \"\",\n        \"cast\": \"Danna Paola, Miguel Herrán, María Pedraza, Itzan Escamilla, Miguel Bernardeau, Jaime Lorente, Álvaro Rico, Arón Piper, Mina El Hammani, Ester Expósito, Omar Ayuso\",\n        \"country\": \"Spain\",\n        \"date_added\": \"2021-06-18T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"4 Seasons\",\n        \"listed_in\": \"Crime TV Shows, International TV Shows, Spanish-Language TV Shows\",\n        \"description\": \"When three working-class teens enroll in an exclusive private school in Spain, the clash between them and the wealthy students leads to murder.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedfb1\",\n        \"show_id\": \"s693\",\n        \"type\": \"TV Show\",\n        \"title\": \"The Rational Life\",\n        \"director\": \"Hsu Fu-chun\",\n        \"cast\": \"Qin Lan, Dylan Wang, Li Zonghan, Bao Wenjing, Pan Hong, Chen Pengwanli, Lin Xinyi, Kang Kang, Wei Yibo, He Bin\",\n        \"country\": \"\",\n        \"date_added\": \"2021-06-18T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-14\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"International TV Shows, Romantic TV Shows, TV Dramas\",\n        \"description\": \"A career-driven 30-something must contend with a cutthroat workplace, a love triangle and her nagging mom.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee031\",\n        \"show_id\": \"s821\",\n        \"type\": \"TV Show\",\n        \"title\": \"The Platform\",\n        \"director\": \"\",\n        \"cast\": \"Maxim Khalil, Abdulmohsen Alnemr, Samr Ismaiel, Khaled Alkeesh, Samar Sami, Salloum Haddad, Ahmad Aljasmii, Khaled El Sayed, Yaser Alneyadi, Leen Gherra, Dean Cain, Moatasem Alnahar, Mahira Abdelaziz\",\n        \"country\": \"United Arab Emirates\",\n        \"date_added\": \"2021-06-02T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-14\",\n        \"duration\": \"3 Seasons\",\n        \"listed_in\": \"International TV Shows, TV Dramas, TV Mysteries\",\n        \"description\": \"A programming genius builds a fact-finding, truth-seeking internet portal while reckoning with trouble at home.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedf84\",\n        \"show_id\": \"s648\",\n        \"type\": \"TV Show\",\n        \"title\": \"The Parisian Agency: Exclusive Properties\",\n        \"director\": \"\",\n        \"cast\": \"Olivier Kretz, Sandrine Kretz, Valentin Kretz, Martin Kretz, Louis Kretz\",\n        \"country\": \"\",\n        \"date_added\": \"2021-06-23T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-G\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"International TV Shows, Reality TV\",\n        \"description\": \"This reality series follows the Kretz family and their luxury property business as they help clients buy and sell fabulous homes in France and abroad.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedf7d\",\n        \"show_id\": \"s641\",\n        \"type\": \"TV Show\",\n        \"title\": \"Jiva!\",\n        \"director\": \"\",\n        \"cast\": \"Noxolo Dlamini, Candice Modiselle, Sne Mbatha, Stella Dlangalala, Zazi Kunene, Ntuthuzelo Grootboom, Given Stuurman, Tony Kgoroge, Anga Makubalo, Sibulele Gcilitshana, Zamani Mbatha, Kagiso Modupe\",\n        \"country\": \"\",\n        \"date_added\": \"2021-06-24T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"International TV Shows, TV Dramas\",\n        \"description\": \"A talented street dancer from Umlazi, Durban must confront her fears and deal with family objections to pursue her dancing dreams.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedf7b\",\n        \"show_id\": \"s639\",\n        \"type\": \"TV Show\",\n        \"title\": \"Sex/Life\",\n        \"director\": \"\",\n        \"cast\": \"Sarah Shahi, Mike Vogel, Adam Demos, Margaret Odette\",\n        \"country\": \"United States\",\n        \"date_added\": \"2021-06-25T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"Romantic TV Shows, TV Dramas\",\n        \"description\": \"A woman's daring sexual past collides with her married-with-kids present when the bad-boy ex she can't stop fantasizing about crashes back into her life.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee199\",\n        \"show_id\": \"s1181\",\n        \"type\": \"TV Show\",\n        \"title\": \"Alien TV\",\n        \"director\": \"\",\n        \"cast\": \"Rob Tinkler, Julie Lemieux, John Cleland, Kyle Dooley, Rupert Degas\",\n        \"country\": \"\",\n        \"date_added\": \"2021-03-19T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-Y7\",\n        \"duration\": \"2 Seasons\",\n        \"listed_in\": \"Kids' TV, TV Comedies\",\n        \"description\": \"Alien reporters Ixbee, Pixbee and Squee travel to a lovely but odd planet called Earth, where they attempt to make sense of humans and their hobbies.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee18d\",\n        \"show_id\": \"s1169\",\n        \"type\": \"TV Show\",\n        \"title\": \"DOTA: Dragon's Blood\",\n        \"director\": \"\",\n        \"cast\": \"Yuri Lowenthal, Lara Pulver, Kari Wahlgren, Alix Wilton Regan, Troy Baker, Freya Tingley, Tony Todd\",\n        \"country\": \"United States\",\n        \"date_added\": \"2021-03-25T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"Anime Series\",\n        \"description\": \"A conflicted yet courageous Dragon Knight must use the power of the dragon within to stop a deadly demon in this epic fantasy based on the online game.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee081\",\n        \"show_id\": \"s901\",\n        \"type\": \"TV Show\",\n        \"title\": \"Money, Explained\",\n        \"director\": \"\",\n        \"cast\": \"\",\n        \"country\": \"United States\",\n        \"date_added\": \"2021-05-11T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-14\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"Docuseries\",\n        \"description\": \"We spend it, borrow it and save it. Now let's talk about money and its many minefields, from credit cards to casinos, scammers to student loans.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee07e\",\n        \"show_id\": \"s898\",\n        \"type\": \"TV Show\",\n        \"title\": \"Use For My Talent\",\n        \"director\": \"Cai Cong\",\n        \"cast\": \"Shen Yue, Jasper Liu, Dai Yunfan, Yan An, Su Mengdi, Huang Sirui, Charles Lin, Tan Quan, Xiao Ran\",\n        \"country\": \"\",\n        \"date_added\": \"2021-05-12T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-14\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"International TV Shows, Romantic TV Shows, TV Comedies\",\n        \"description\": \"When the germophobic owner of a cleaning company encounters a slovenly employee, a romance blossoms as they help one another heal from their pasts.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee070\",\n        \"show_id\": \"s884\",\n        \"type\": \"TV Show\",\n        \"title\": \"Love, Death & Robots\",\n        \"director\": \"\",\n        \"cast\": \"Topher Grace, Mary Elizabeth Winstead, Gary Cole, Samira Wiley, Daisuke Tsuji, Maurice LaMarche, Rebecca Riedy, Helen Sadler, Hayley McLaughlin, Time Winters, Elly Condron, Stefan Kapicic, Bruce Thomas, Jeff Berg, Aaron Himelstein, Carlos Alazraqui, Jill Talley, Brian Bloom, Chris Cox, Michael Benyaer, Fred Tatasciore, Scott Whyte, Josh Brener, Gary Anthony Williams, Chris Parnell, Graham Hamilton, Adam Bartley, Kevin Michael Richardson, Emma Thornett, Henry Douthwaite, Madeleine Knight, Rebecca Banatvala, Kirk Thornton, Yuri Lowenthal, Elaine Tan, Matthew Yang King, Gwendoline Yeo, Neil Kaplan, G.K. Bowes, Courtenay Taylor\",\n        \"country\": \"United States\",\n        \"date_added\": \"2021-05-14T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"2 Seasons\",\n        \"listed_in\": \"TV Action & Adventure, TV Horror, TV Sci-Fi & Fantasy\",\n        \"description\": \"Terrifying creatures, wicked surprises and dark comedy converge in this NSFW anthology of animated stories presented by Tim Miller and David Fincher.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee062\",\n        \"show_id\": \"s870\",\n        \"type\": \"TV Show\",\n        \"title\": \"Who Killed Sara?\",\n        \"director\": \"\",\n        \"cast\": \"Manolo Cardona, Ginés García Millán, Carolina Miranda, Alejandro Nones, Claudia Ramírez, Eugenio Siller, Juan Carlos Remolina, Ximena Lamadrid, Luis Roberto Guzmán, Leo Deluglio, Héctor Jiménez, Ana Lucía Domínguez, Iñaki Godoy, Polo Morín, Andrés Baida, Fátima Molina, Marco Zapata\",\n        \"country\": \"Mexico\",\n        \"date_added\": \"2021-05-19T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"2 Seasons\",\n        \"listed_in\": \"Crime TV Shows, International TV Shows, Spanish-Language TV Shows\",\n        \"description\": \"Hell-bent on exacting revenge and proving he was framed for his sister's murder, Álex sets out to unearth much more than the crime's real culprit.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee03c\",\n        \"show_id\": \"s832\",\n        \"type\": \"TV Show\",\n        \"title\": \"The Least Expected Day: Inside the Movistar Team 2019\",\n        \"director\": \"José Larraza, Marc Pons\",\n        \"cast\": \"\",\n        \"country\": \"\",\n        \"date_added\": \"2021-05-28T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"2 Seasons\",\n        \"listed_in\": \"Docuseries, International TV Shows, Spanish-Language TV Shows\",\n        \"description\": \"Pro cycling’s Movistar Team sets their sights on victory while on the road as they face challenges, controversy and internal conflict.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adee03d\",\n        \"show_id\": \"s833\",\n        \"type\": \"TV Show\",\n        \"title\": \"Word of Honor\",\n        \"director\": \"Gary Sing\",\n        \"cast\": \"Zhang Zhehan, Gong Jun, Zhou Ye, Asher Ma, Sun Xilun, Chen Zihan, Rolling Wang, Zhang Yonggang, Li Daikun, Huang Youming, Damon Guo\",\n        \"country\": \"\",\n        \"date_added\": \"2021-05-28T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-14\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"International TV Shows, TV Action & Adventure, TV Dramas\",\n        \"description\": \"A disillusioned royal magistrate sets out for the martial arts world, where he encounters a bosom friend and becomes entangled in a conspiracy.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedcfe\",\n        \"show_id\": \"s2\",\n        \"type\": \"TV Show\",\n        \"title\": \"Blood & Water\",\n        \"director\": \"\",\n        \"cast\": \"Ama Qamata, Khosi Ngema, Gail Mabalane, Thabang Molaba, Dillon Windvogel, Natasha Thahane, Arno Greeff, Xolile Tshabalala, Getmore Sithole, Cindy Mahlangu, Ryle De Morny, Greteli Fincham, Sello Maake Ka-Ncube, Odwa Gwanya, Mekaila Mathys, Sandi Schultz, Duane Williams, Shamilla Miller, Patrick Mofokeng\",\n        \"country\": \"South Africa\",\n        \"date_added\": \"2021-09-24T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"2 Seasons\",\n        \"listed_in\": \"International TV Shows, TV Dramas, TV Mysteries\",\n        \"description\": \"After crossing paths at a party, a Cape Town teen sets out to prove whether a private-school swimming star is her sister who was abducted at birth.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedd02\",\n        \"show_id\": \"s6\",\n        \"type\": \"TV Show\",\n        \"title\": \"Midnight Mass\",\n        \"director\": \"Mike Flanagan\",\n        \"cast\": \"Kate Siegel, Zach Gilford, Hamish Linklater, Henry Thomas, Kristin Lehman, Samantha Sloyan, Igby Rigney, Rahul Kohli, Annarah Cymone, Annabeth Gish, Alex Essoe, Rahul Abburi, Matt Biedel, Michael Trucco, Crystal Balint, Louis Oliver\",\n        \"country\": \"\",\n        \"date_added\": \"2021-09-24T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"TV Dramas, TV Horror, TV Mysteries\",\n        \"description\": \"The arrival of a charismatic young priest brings glorious miracles, ominous mysteries and renewed religious fervor to a dying town desperate to believe.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedd69\",\n        \"show_id\": \"s109\",\n        \"type\": \"TV Show\",\n        \"title\": \"Dive Club\",\n        \"director\": \"\",\n        \"cast\": \"Aubri Ibrag, Sana'a Shaik, Miah Madden, Mercy Cornwall, Georgia-May Davis, Ryan Harrison, Josh Heuston, Alexander Grant\",\n        \"country\": \"Australia\",\n        \"date_added\": \"2021-09-03T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-G\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"Kids' TV, TV Dramas, Teen TV Shows\",\n        \"description\": \"On the shores of Cape Mercy, a skillful group of teen divers investigate a series of secrets and signs after one of their own mysteriously goes missing.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63ff43703aa802b65adedd60\",\n        \"show_id\": \"s100\",\n        \"type\": \"TV Show\",\n        \"title\": \"On the Verge\",\n        \"director\": \"\",\n        \"cast\": \"Julie Delpy, Elisabeth Shue, Sarah Jones, Alexia Landeau, Mathieu Demy, Troy Garity, Timm Sharp, Giovanni Ribisi\",\n        \"country\": \"France, United States\",\n        \"date_added\": \"2021-09-07T00:00:00.000Z\",\n        \"release_year\": 2021,\n        \"rating\": \"TV-MA\",\n        \"duration\": \"1 Season\",\n        \"listed_in\": \"TV Comedies, TV Dramas\",\n        \"description\": \"Four women — a chef, a single mom, an heiress and a job seeker — dig into love and work, with a generous side of midlife crises, in pre-pandemic LA.\",\n        \"__v\": 0\n    }\n]"
+				},
+				{
+					"name": "List API",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://netflix-explorer.onrender.com/api/list?type=TV%20Show&from=2021&sort=date_added&search=x&order=asc",
+							"protocol": "https",
+							"host": [
+								"netflix-explorer",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"list"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "TV%20Show"
+								},
+								{
+									"key": "from",
+									"value": "2021"
+								},
+								{
+									"key": "sort",
+									"value": "date_added"
+								},
+								{
+									"key": "search",
+									"value": "x"
+								},
+								{
+									"key": "order",
+									"value": "asc"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 02 Mar 2023 07:54:16 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "CF-Ray",
+							"value": "7a18121859ab0327-IAD"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "[]"
+				}
+			]
+		},
+		{
+			"name": "Seed",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://netflix-explorer.onrender.com/api/seed/",
+					"protocol": "https",
+					"host": [
+						"netflix-explorer",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"seed",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Seed",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://netflix-explorer.onrender.com/api/seed/",
+							"protocol": "https",
+							"host": [
+								"netflix-explorer",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"seed",
+								""
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 02 Mar 2023 07:50:51 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "CF-Ray",
+							"value": "7a180d185e4b82d4-IAD"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"21-R2GqyfdXKWt3xj9+c1E9LkNkrRY\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Data already seeded\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Reset",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://netflix-explorer.onrender.com/api/reset/",
+					"protocol": "https",
+					"host": [
+						"netflix-explorer",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"reset",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Reset",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://netflix-explorer.onrender.com/api/reset/",
+							"protocol": "https",
+							"host": [
+								"netflix-explorer",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"reset",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 02 Mar 2023 07:53:11 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "CF-Ray",
+							"value": "7a181073d8e06fad-IAD"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"25-0Cd4AQ+Da1kCwWNpezEGMUPya1g\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Data reset successfully\"\n}"
+				},
+				{
+					"name": "Reset",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://netflix-explorer.onrender.com/api/reset/",
+							"protocol": "https",
+							"host": [
+								"netflix-explorer",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"reset",
+								""
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 02 Mar 2023 07:53:57 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "CF-Ray",
+							"value": "7a18119ad9a10327-IAD"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"15-z6z8DSDxOEsHxccIetkqzp0B7Jw\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"No Data\"\n}"
+				}
+			]
+		}
+	]
+}
